@@ -40,7 +40,17 @@ default :
 break;
 }
 
+// For a method to execute we must call
+Mymethod();
 
         }
+
+static void Mymethod()
+{
+
+Console.WriteLine("test");
+
+}
+        
     }
 }
