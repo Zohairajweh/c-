@@ -7,7 +7,7 @@ namespace c_review
         static void Main(string[] args)
         {
             int x =30;
-         
+    
            // Console.WriteLine("Hello World!"+x);
             if (x<30){
 
@@ -30,9 +30,15 @@ namespace c_review
                 for (int i = 0; i < 5 ; i++)
 {
                  Console.WriteLine("Array Index"+i+" | Array Value:"+ myarray[i] );
+}     
+int y=0;
+
+while (y<5)
+{
+ Console.WriteLine("Array Index"+y+" | Array Value:"+ myarray[y] );
+y++;
+
 }
-
-
 
 
 int a = 3;
