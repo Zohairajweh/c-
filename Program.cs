@@ -46,10 +46,15 @@ y +=2;
 
 foreach(int e in myarray)
 {
- Console.WriteLine("Current  foreavh Value is:"+e);
+ Console.WriteLine("Current foreavh Value is:"+e);
 
 
 }
+//
+ Console.WriteLine("pleas enter your name");
+ string  myname= Console.ReadLine();
+Console.WriteLine("thank you, "+myname+"!");
+
 
 int a = 3;
 switch(a){
