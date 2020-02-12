@@ -6,23 +6,29 @@ namespace c_review
     {
         static void Main(string[] args)
         {
-        //     int x =30;
+            int x =30;
          
-        //    // Console.WriteLine("Hello World!"+x);
-        //     if (x<30){
+           // Console.WriteLine("Hello World!"+x);
+            if (x<30){
 
-        //       Console.WriteLine("x is less than therty");
-        //     }
-        //       else if (x==30)
-        //       {              Console.WriteLine("X is thirty");
+              Console.WriteLine("x is less than therty");
+            }
+              else if (x==30)
+              {              Console.WriteLine("X is thirty");
 
-        //       }     
-        //           else
-        //           {
-        //            Console.WriteLine("x is greater than therty");
+              }     
+                  else
+                  {
+                   Console.WriteLine("x is greater than therty");
 
-        //           }
-              
+                  }
+              // Let's try an arrarray
+                 int[] myarray = new int[5]{3,4,5,6,7};
+                 myarray[0]=2;
+                Console.WriteLine(myarray[0] );
+
+
+
 int a = 3;
 switch(a){
 
