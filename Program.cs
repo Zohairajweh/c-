@@ -31,6 +31,8 @@ namespace c_review
 {
                  Console.WriteLine("Array Index"+i+" | Array Value:"+ myarray[i] );
 }     
+
+// while
 int y=0;
 
 while (y<5)
@@ -40,6 +42,14 @@ y +=2;
 
 }
 
+//foreach
+
+foreach(int e in myarray)
+{
+ Console.WriteLine("Current  foreavh Value is:"+e);
+
+
+}
 
 int a = 3;
 switch(a){
