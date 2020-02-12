@@ -27,6 +27,12 @@ namespace c_review
                  myarray[0]=2;
                 Console.WriteLine(myarray[0] );
 
+                for (int i = 0; i < 5 ; i++)
+{
+                 Console.WriteLine("Array Index"+i+" | Array Value:"+ myarray[i] );
+}
+
+
 
 
 int a = 3;
