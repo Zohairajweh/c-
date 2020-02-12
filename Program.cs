@@ -36,7 +36,7 @@ int y=0;
 while (y<5)
 {
  Console.WriteLine("Array Index"+y+" | Array Value:"+ myarray[y] );
-y++;
+y +=2;
 
 }
 
